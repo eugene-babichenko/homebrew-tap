@@ -2,16 +2,16 @@
 class Zpm < Formula
   desc "Simple and fast zsh plugins manager"
   homepage "https://github.com/eugene-babichenko/zpm"
-  version "0.2.0"
+  version "0.2.1"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/eugene-babichenko/zpm/releases/download/v0.2.0/zpm_0.2.0_macOS_amd64.tar.gz"
-    sha256 "a3bb86b37b5054efe0f3a3539b135e806dd65001c935d08a180e953f1ab0b1fe"
+    url "https://github.com/eugene-babichenko/zpm/releases/download/v0.2.1/zpm_0.2.1_macOS_amd64.tar.gz"
+    sha256 "3f417f49dfd479da2f4eddbb87083ae09ac6387c24136259e4f5caa3d0d8c448"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/eugene-babichenko/zpm/releases/download/v0.2.0/zpm_0.2.0_linux_amd64.tar.gz"
-      sha256 "92fb16c2a27e521d31cde0f13318eded4277839a8ae7305c2f28add225869f0f"
+      url "https://github.com/eugene-babichenko/zpm/releases/download/v0.2.1/zpm_0.2.1_linux_amd64.tar.gz"
+      sha256 "14a37f1216a4361aab77cb3bf2023a46fae33fc69f279b89a46216148dedbc20"
     end
   end
 
